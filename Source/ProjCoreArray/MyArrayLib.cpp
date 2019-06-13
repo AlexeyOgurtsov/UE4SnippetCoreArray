@@ -1,5 +1,5 @@
 #include "MyArrayLib.h"
-#include "Util/LogUtilLib.h"
+#include "Util/Core/LogUtilLib.h"
 
 #include "Serialization/BufferArchive.h"
 #include "Serialization/MemoryReader.h"
