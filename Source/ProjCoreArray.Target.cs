@@ -8,6 +8,7 @@ public class ProjCoreArrayTarget : TargetRules
 	public ProjCoreArrayTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
 
 		ExtraModuleNames.AddRange( new string[] { "ProjCoreArray" } );
 	}
